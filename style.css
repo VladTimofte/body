@@ -1,3 +1,19 @@
+/*Disable <a></a> blue color link*/
+.deco-none {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.deco-none:link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.deco-none:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 /*Set the row height to the viewport*/
 .row-height{
     height: 100vh;
@@ -99,6 +115,10 @@
 /*ROBOTO FONT*/
 .roboto-16px {
   font-family: 'Roboto';font-size: 16px;
+}
+
+.roboto-14px {
+  font-family: 'Roboto';font-size: 14px;
 }
 
 .roboto-12px {
